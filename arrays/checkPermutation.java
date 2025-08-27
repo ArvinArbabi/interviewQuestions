@@ -3,9 +3,12 @@ public class checkPermutation{
     
     public static boolean isPermutation(String str1, String str2) {
         int charMatch = 0;
-
+        if(str1.length() != str2.length()){
+            return false;
+        }
         for (int i = 0; i < str1.length(); i++){
             for (int x = 0; x < str1.length(); x++){
+                
                 if (x == i){
                 }
                 else{                    
@@ -24,5 +27,6 @@ public class checkPermutation{
         System.out.println(isPermutation("abc", "bca"));
         System.out.println(isPermutation("aab", "aba"));
         System.out.println(isPermutation("aab", "abb"));
+        System.out.println(isPermutation("aabc", "aab"));
     }
 }
