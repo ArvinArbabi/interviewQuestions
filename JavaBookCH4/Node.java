@@ -1,3 +1,4 @@
+// for stack example
 public class Node {
     private Object element;
     private Node next;
