@@ -14,13 +14,9 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         int[] data = {64, 34, 25, 12, 22, 11, 90};
-        System.out.print("Original array: ");
-        for (int num : data) System.out.print(num + " ");
-        System.out.println();
 
         bubbleSort(data);
 
-        System.out.print("Sorted array: ");
         for (int num : data) System.out.print(num + " ");
     }
 }
