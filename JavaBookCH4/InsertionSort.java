@@ -16,7 +16,7 @@ public class InsertionSort {
         int[] arr = {5, 2, 4, 6, 1, 3};
         arr = sorter.insertionSorter(arr);
         for (int num : arr) {
-            System.out.print(num + " ");
+            System.out.print(num + ",");
         }
     }
 }
